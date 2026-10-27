@@ -1,0 +1,80 @@
+{
+    "raw_record_count": 5000,
+    "initial_features_count": 30,
+    "columns": [
+        "applicant_id",
+        "gender",
+        "applicant_age",
+        "urban_rural",
+        "location_region",
+        "business_registration_status",
+        "business_type",
+        "years_in_operation",
+        "monthly_revenue_estimated",
+        "monthly_operating_expenses",
+        "net_disposable_cashflow",
+        "financial_record_availability",
+        "number_of_employees",
+        "airtime_recharge_frequency",
+        "airtime_recharge_volatility",
+        "mobile_wallet_txn_regularity",
+        "p2p_transfer_in_out_ratio",
+        "utility_bill_payment_consistency",
+        "account_age_telecom",
+        "digital_payment_adoption_ratio",
+        "loan_amount_requested",
+        "loan_tenor_months",
+        "loan_purpose",
+        "monthly_installment",
+        "installment_to_income_ratio",
+        "number_of_previous_loans",
+        "number_of_late_payments",
+        "historical_default_count",
+        "savings_deposit_frequency",
+        "loan_default_flag"
+    ],
+    "duplicate_ids": 0,
+    "duplicate_rows": 0,
+    "missing_values": {
+        "utility_bill_payment_consistency": 927
+    },
+    "utility_missing_flag_created": true,
+    "utility_imputed_median": 0.685,
+    "range_violations": {
+        "invalid_age_count": 0,
+        "invalid_revenue_count": 0,
+        "invalid_loan_amount_count": 0
+    },
+    "winsorization_bounds": {
+        "monthly_revenue_estimated": {
+            "p01": 1471.0032999999999,
+            "p99": 21555.274300000012
+        },
+        "monthly_operating_expenses": {
+            "p01": 1000.641,
+            "p99": 14970.612200000001
+        },
+        "net_disposable_cashflow": {
+            "p01": 427.93489999999997,
+            "p99": 7038.0121
+        },
+        "p2p_transfer_in_out_ratio": {
+            "p01": 0.39,
+            "p99": 3.130100000000002
+        },
+        "airtime_recharge_frequency": {
+            "p01": 1.9,
+            "p99": 20.601000000000024
+        }
+    },
+    "class_imbalance": {
+        "counts": {
+            "0": 4803,
+            "1": 197
+        },
+        "proportions_pct": {
+            "0": 96.06,
+            "1": 3.94
+        }
+    }
+}

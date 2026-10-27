@@ -1,0 +1,94 @@
+{
+    "Approved_Applicant_Case": {
+        "applicant_id": "NAM-11179",
+        "test_sample_index": 1,
+        "predicted_default_probability": 0.12,
+        "credit_decision": "Approved",
+        "ground_truth_outcome": "Non-Default (Good)",
+        "adverse_action_disclosures": [
+            {
+                "feature": "mobile_wallet_txn_regularity",
+                "shap_impact": 0.1372,
+                "regulatory_reason_code": "Low consistency in mobile wallet transaction activity."
+            },
+            {
+                "feature": "airtime_recharge_frequency",
+                "shap_impact": 0.0826,
+                "regulatory_reason_code": "Low frequency of mobile top-up transactions over the preceding 90 days."
+            },
+            {
+                "feature": "digital_payment_adoption_ratio",
+                "shap_impact": 0.0515,
+                "regulatory_reason_code": "Adverse risk impact from digital_payment_adoption_ratio."
+            }
+        ],
+        "favorable_mitigating_factors": [
+            {
+                "feature": "airtime_stability_index",
+                "shap_impact": -0.9591,
+                "protective_factor": "Favorable indicator reducing default probability (airtime_stability_index)."
+            },
+            {
+                "feature": "account_age_telecom",
+                "shap_impact": -0.4894,
+                "protective_factor": "Favorable indicator reducing default probability (account_age_telecom)."
+            },
+            {
+                "feature": "airtime_recharge_volatility",
+                "shap_impact": -0.2271,
+                "protective_factor": "Favorable indicator reducing default probability (airtime_recharge_volatility)."
+            }
+        ],
+        "protected_profile_audit": {
+            "gender": "Male",
+            "urban_rural": "Urban",
+            "location_region": "Oshikoto"
+        }
+    },
+    "Declined_Applicant_Case": {
+        "applicant_id": "NAM-11764",
+        "test_sample_index": 0,
+        "predicted_default_probability": 0.6438,
+        "credit_decision": "Declined (Adverse Action Notice Generated)",
+        "ground_truth_outcome": "Non-Default (Good)",
+        "adverse_action_disclosures": [
+            {
+                "feature": "number_of_late_payments",
+                "shap_impact": 0.3553,
+                "regulatory_reason_code": "Past late repayment history on digital or microfinance credit facilities."
+            },
+            {
+                "feature": "installment_to_income_ratio",
+                "shap_impact": 0.1849,
+                "regulatory_reason_code": "Monthly installment exceeds recommended proportion of free cash flow."
+            },
+            {
+                "feature": "airtime_stability_index",
+                "shap_impact": 0.1105,
+                "regulatory_reason_code": "Adverse risk impact from airtime_stability_index."
+            }
+        ],
+        "favorable_mitigating_factors": [
+            {
+                "feature": "account_age_telecom",
+                "shap_impact": -0.2687,
+                "protective_factor": "Favorable indicator reducing default probability (account_age_telecom)."
+            },
+            {
+                "feature": "digital_payment_adoption_ratio",
+                "shap_impact": -0.0457,
+                "protective_factor": "Favorable indicator reducing default probability (digital_payment_adoption_ratio)."
+            },
+            {
+                "feature": "loan_amount_requested",
+                "shap_impact": -0.0449,
+                "protective_factor": "Favorable indicator reducing default probability (loan_amount_requested)."
+            }
+        ],
+        "protected_profile_audit": {
+            "gender": "Female",
+            "urban_rural": "Urban",
+            "location_region": "Erongo"
+        }
+    }
+}

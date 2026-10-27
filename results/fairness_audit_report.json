@@ -1,0 +1,230 @@
+{
+  "candidate": "Percyviarance Minsozi Simasiku",
+  "student_id": "201061589",
+  "threshold_used": 0.5,
+  "models": {
+    "XGBoost": {
+      "fairness_pairs": [
+        {
+          "attribute": "gender",
+          "privileged": "Male",
+          "unprivileged": "Female",
+          "approval_rate_privileged": 0.2095,
+          "approval_rate_unprivileged": 0.2391,
+          "dpd": 0.0296,
+          "dir": 1.1413,
+          "eod": 0.1087,
+          "fnr_gap": -0.1087,
+          "four_fifths_violated": false,
+          "eod_flag": true
+        },
+        {
+          "attribute": "urban_rural",
+          "privileged": "Urban",
+          "unprivileged": "Rural",
+          "approval_rate_privileged": 0.2301,
+          "approval_rate_unprivileged": 0.2189,
+          "dpd": -0.0112,
+          "dir": 0.9513,
+          "eod": 0.0714,
+          "fnr_gap": -0.0714,
+          "four_fifths_violated": false,
+          "eod_flag": false
+        },
+        {
+          "attribute": "business_registration_status",
+          "privileged": "Formal",
+          "unprivileged": "Informal",
+          "approval_rate_privileged": 0.1909,
+          "approval_rate_unprivileged": 0.2506,
+          "dpd": 0.0597,
+          "dir": 1.3127,
+          "eod": 0.1628,
+          "fnr_gap": -0.1628,
+          "four_fifths_violated": false,
+          "eod_flag": true
+        }
+      ],
+      "group_metrics": {
+        "gender": [
+          {
+            "group": "Female",
+            "n": 803,
+            "n_defaults": 36,
+            "approval_rate": 0.2391,
+            "tpr": 0.5,
+            "fnr": 0.5,
+            "fpr": 0.2269,
+            "accuracy": 0.7609
+          },
+          {
+            "group": "Male",
+            "n": 697,
+            "n_defaults": 23,
+            "approval_rate": 0.2095,
+            "tpr": 0.3913,
+            "fnr": 0.6087,
+            "fpr": 0.2033,
+            "accuracy": 0.7834
+          }
+        ],
+        "urban_rural": [
+          {
+            "group": "Rural",
+            "n": 644,
+            "n_defaults": 24,
+            "approval_rate": 0.2189,
+            "tpr": 0.5,
+            "fnr": 0.5,
+            "fpr": 0.2081,
+            "accuracy": 0.7811
+          },
+          {
+            "group": "Urban",
+            "n": 856,
+            "n_defaults": 35,
+            "approval_rate": 0.2301,
+            "tpr": 0.4286,
+            "fnr": 0.5714,
+            "fpr": 0.2217,
+            "accuracy": 0.764
+          }
+        ],
+        "business_registration_status": [
+          {
+            "group": "Formal",
+            "n": 634,
+            "n_defaults": 20,
+            "approval_rate": 0.1909,
+            "tpr": 0.35,
+            "fnr": 0.65,
+            "fpr": 0.1857,
+            "accuracy": 0.7997
+          },
+          {
+            "group": "Informal",
+            "n": 866,
+            "n_defaults": 39,
+            "approval_rate": 0.2506,
+            "tpr": 0.5128,
+            "fnr": 0.4872,
+            "fpr": 0.2382,
+            "accuracy": 0.7506
+          }
+        ]
+      }
+    },
+    "Random Forest": {
+      "fairness_pairs": [
+        {
+          "attribute": "gender",
+          "privileged": "Male",
+          "unprivileged": "Female",
+          "approval_rate_privileged": 0.0746,
+          "approval_rate_unprivileged": 0.0747,
+          "dpd": 0.0001,
+          "dir": 1.0013,
+          "eod": 0.0205,
+          "fnr_gap": -0.0205,
+          "four_fifths_violated": false,
+          "eod_flag": false
+        },
+        {
+          "attribute": "urban_rural",
+          "privileged": "Urban",
+          "unprivileged": "Rural",
+          "approval_rate_privileged": 0.0818,
+          "approval_rate_unprivileged": 0.0652,
+          "dpd": -0.0166,
+          "dir": 0.7971,
+          "eod": 0.1774,
+          "fnr_gap": -0.1774,
+          "four_fifths_violated": true,
+          "eod_flag": true
+        },
+        {
+          "attribute": "business_registration_status",
+          "privileged": "Formal",
+          "unprivileged": "Informal",
+          "approval_rate_privileged": 0.0536,
+          "approval_rate_unprivileged": 0.0901,
+          "dpd": 0.0365,
+          "dir": 1.681,
+          "eod": 0.0551,
+          "fnr_gap": -0.0551,
+          "four_fifths_violated": false,
+          "eod_flag": false
+        }
+      ],
+      "group_metrics": {
+        "gender": [
+          {
+            "group": "Female",
+            "n": 803,
+            "n_defaults": 36,
+            "approval_rate": 0.0747,
+            "tpr": 0.1944,
+            "fnr": 0.8056,
+            "fpr": 0.0691,
+            "accuracy": 0.8979
+          },
+          {
+            "group": "Male",
+            "n": 697,
+            "n_defaults": 23,
+            "approval_rate": 0.0746,
+            "tpr": 0.1739,
+            "fnr": 0.8261,
+            "fpr": 0.0712,
+            "accuracy": 0.9039
+          }
+        ],
+        "urban_rural": [
+          {
+            "group": "Rural",
+            "n": 644,
+            "n_defaults": 24,
+            "approval_rate": 0.0652,
+            "tpr": 0.2917,
+            "fnr": 0.7083,
+            "fpr": 0.0565,
+            "accuracy": 0.9193
+          },
+          {
+            "group": "Urban",
+            "n": 856,
+            "n_defaults": 35,
+            "approval_rate": 0.0818,
+            "tpr": 0.1143,
+            "fnr": 0.8857,
+            "fpr": 0.0804,
+            "accuracy": 0.8867
+          }
+        ],
+        "business_registration_status": [
+          {
+            "group": "Formal",
+            "n": 634,
+            "n_defaults": 20,
+            "approval_rate": 0.0536,
+            "tpr": 0.15,
+            "fnr": 0.85,
+            "fpr": 0.0505,
+            "accuracy": 0.9243
+          },
+          {
+            "group": "Informal",
+            "n": 866,
+            "n_defaults": 39,
+            "approval_rate": 0.0901,
+            "tpr": 0.2051,
+            "fnr": 0.7949,
+            "fpr": 0.0846,
+            "accuracy": 0.8834
+          }
+        ]
+      }
+    }
+  },
+  "threshold_mitigation": []
+}

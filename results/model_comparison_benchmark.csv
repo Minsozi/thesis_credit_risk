@@ -1,0 +1,5 @@
+Model,ROC-AUC,PR-AUC,Recall (Default Detection),False Negative Rate (FNR),False Positive Rate (FPR),Precision,F1-Score,Accuracy,Brier Score (Calibration),True Positives,False Negatives,True Negatives,False Positives
+Logistic Regression,0.6668,0.1459,0.5254,0.4746,0.3026,0.0664,0.1179,0.6907,0.2019,31,28,1005,436
+Decision Tree,0.5425,0.0459,0.4068,0.5932,0.3019,0.0523,0.0927,0.6867,0.2086,24,35,1006,435
+Random Forest,0.6541,0.0944,0.1864,0.8136,0.0701,0.0982,0.1287,0.9007,0.0997,11,48,1340,101
+XGBoost,0.6481,0.0895,0.4576,0.5424,0.2158,0.0799,0.136,0.7713,0.161,27,32,1130,311

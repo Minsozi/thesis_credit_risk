@@ -1,0 +1,52 @@
+{
+    "XGBoost_vs_Logistic Regression": {
+        "model_a": "XGBoost",
+        "model_b": "Logistic Regression",
+        "auc_a": 0.6481,
+        "auc_b": 0.6668,
+        "auc_difference": -0.0187,
+        "z_statistic": -0.872,
+        "p_value": 0.38323,
+        "statistically_significant_at_05": false
+    },
+    "Random Forest_vs_Logistic Regression": {
+        "model_a": "Random Forest",
+        "model_b": "Logistic Regression",
+        "auc_a": 0.6541,
+        "auc_b": 0.6668,
+        "auc_difference": -0.0127,
+        "z_statistic": -0.5274,
+        "p_value": 0.59791,
+        "statistically_significant_at_05": false
+    },
+    "XGBoost_vs_Decision Tree": {
+        "model_a": "XGBoost",
+        "model_b": "Decision Tree",
+        "auc_a": 0.6481,
+        "auc_b": 0.5425,
+        "auc_difference": 0.1055,
+        "z_statistic": 2.689,
+        "p_value": 0.00717,
+        "statistically_significant_at_05": true
+    },
+    "Random Forest_vs_Decision Tree": {
+        "model_a": "Random Forest",
+        "model_b": "Decision Tree",
+        "auc_a": 0.6541,
+        "auc_b": 0.5425,
+        "auc_difference": 0.1116,
+        "z_statistic": 2.7521,
+        "p_value": 0.00592,
+        "statistically_significant_at_05": true
+    },
+    "Random Forest_vs_XGBoost": {
+        "model_a": "Random Forest",
+        "model_b": "XGBoost",
+        "auc_a": 0.6541,
+        "auc_b": 0.6481,
+        "auc_difference": 0.006,
+        "z_statistic": 0.3437,
+        "p_value": 0.73111,
+        "statistically_significant_at_05": false
+    }
+}

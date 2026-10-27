@@ -1,0 +1,62 @@
+{
+    "Logistic Regression": {
+        "optimal_threshold_p": 0.6,
+        "minimized_portfolio_loss": 442.0,
+        "recall_at_optimal": 0.3729,
+        "fnr_at_optimal": 0.6271,
+        "fpr_at_optimal": 0.1783,
+        "true_positives": 22,
+        "false_negatives": 37,
+        "confusion_matrix_at_optimal": {
+            "tn": 1184,
+            "fp": 257,
+            "fn": 37,
+            "tp": 22
+        }
+    },
+    "Decision Tree": {
+        "optimal_threshold_p": 0.6,
+        "minimized_portfolio_loss": 467.0,
+        "recall_at_optimal": 0.1695,
+        "fnr_at_optimal": 0.8305,
+        "fpr_at_optimal": 0.1541,
+        "true_positives": 10,
+        "false_negatives": 49,
+        "confusion_matrix_at_optimal": {
+            "tn": 1219,
+            "fp": 222,
+            "fn": 49,
+            "tp": 10
+        }
+    },
+    "Random Forest": {
+        "optimal_threshold_p": 0.5941,
+        "minimized_portfolio_loss": 298.0,
+        "recall_at_optimal": 0.1017,
+        "fnr_at_optimal": 0.8983,
+        "fpr_at_optimal": 0.0229,
+        "true_positives": 6,
+        "false_negatives": 53,
+        "confusion_matrix_at_optimal": {
+            "tn": 1408,
+            "fp": 33,
+            "fn": 53,
+            "tp": 6
+        }
+    },
+    "XGBoost": {
+        "optimal_threshold_p": 0.6,
+        "minimized_portfolio_loss": 360.0,
+        "recall_at_optimal": 0.2373,
+        "fnr_at_optimal": 0.7627,
+        "fpr_at_optimal": 0.0937,
+        "true_positives": 14,
+        "false_negatives": 45,
+        "confusion_matrix_at_optimal": {
+            "tn": 1306,
+            "fp": 135,
+            "fn": 45,
+            "tp": 14
+        }
+    }
+}

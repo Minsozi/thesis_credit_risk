@@ -1,0 +1,36 @@
+Feature,Mean_Absolute_SHAP
+account_age_telecom,0.31599307
+airtime_stability_index,0.30923167
+airtime_recharge_frequency,0.19555785
+number_of_late_payments,0.1425382
+installment_to_income_ratio,0.10942194
+number_of_previous_loans,0.08893835
+mobile_wallet_txn_regularity,0.070886195
+applicant_age,0.061230365
+airtime_recharge_volatility,0.058996126
+p2p_transfer_in_out_ratio,0.051057003
+loan_amount_requested,0.050232086
+business_type_Retail / Tuckshop,0.0500017
+net_disposable_cashflow,0.048717488
+cashflow_to_loan_ratio,0.043696467
+utility_bill_payment_consistency,0.04346666
+monthly_installment,0.04150172
+years_in_operation,0.038251102
+debt_burden_ratio,0.036884118
+digital_payment_adoption_ratio,0.035623796
+monthly_revenue_estimated,0.033282425
+historical_default_count,0.031598777
+monthly_operating_expenses,0.015522365
+loan_purpose_Working Capital,0.011017963
+business_type_Street Merchant,0.009429948
+financial_record_availability_1,0.006405259
+savings_deposit_frequency,0.005874674
+repayment_discipline_score,0.0056081065
+loan_tenor_months,0.0053310553
+financial_record_availability_2,0.004906313
+business_type_Smallholder Agriculture,0.0035125252
+number_of_employees,0.0026115722
+loan_purpose_Inventory Purchase,0.0008941922
+utility_payment_missing_flag,0.0
+business_type_Personal Service,0.0
+loan_purpose_Equipment Maintenance,0.0
