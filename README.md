@@ -15,13 +15,14 @@
 
 ---
 
-## 🎯 Live Interactive Prototype
+## 🎯 Live Interactive Prototype & Repository Links
 
 Experience the machine learning credit scoring engine, TreeSHAP explainability waterfalls, constitutional fairness audits, and the USSD mobile phone simulator:
 
+- **GitHub Repository:** [https://github.com/Minsozi/thesis_credit_risk](https://github.com/Minsozi/thesis_credit_risk)
 - **Local Presentation Launcher:** Double-click [`launch_presentation_tool.bat`](launch_presentation_tool.bat) to launch the dashboard at `http://localhost:8501`.
-- **Public Web Deployment:** Once deployed to Streamlit Community Cloud, access the live prototype globally from any device via your public URL.
-- **One-Click GitHub & Cloud Deployment:** Run [`setup_github_and_deploy.bat`](setup_github_and_deploy.bat) to connect your GitHub account and publish the prototype to the web.
+- **Streamlit Community Cloud Deployment:** Deploy via [share.streamlit.io](https://share.streamlit.io) from `Minsozi/thesis_credit_risk` (main file: `app.py`).
+
 
 ---
 
