@@ -9,7 +9,7 @@
 **Supervisor:** Mrs. Johanna Nelulu  
 **Department:** Department of Computing, Mathematical and Statistical Science  
 **Faculty:** Faculty of Agriculture, Engineering & Natural Sciences, University of Namibia  
-**Degree:** Bachelor of Science in Computer Science (Honours)  
+**Degree:** Bachelor of Science in Data Science (Honours)  
 **Regulatory Sandbox Pilot:** Tamba Maris USSD Digital Credit (`*140*555#`)  
 **Timeline:** August 2026 – November 2026  
 
